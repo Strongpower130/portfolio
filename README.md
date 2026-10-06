@@ -1,6 +1,8 @@
 # Portfolio Website
 
-A modern, responsive portfolio website showcasing my work as a 1st year Computer Engineering student at Lehigh University.
+A modern, responsive portfolio website showcasing my experience and work as a Lehigh University engineering student.
+
+**Live website:** [https://strongpower130.github.io/portfolio/](https://strongpower130.github.io/portfolio/)
 
 ## Features
 
@@ -52,7 +54,7 @@ A modern, responsive portfolio website showcasing my work as a 1st year Computer
 - `index.html` - Main HTML structure
 - `styles.css` - Styling and responsive design
 - `script.js` - JavaScript for interactivity and GitHub integration
-- `This be your resume..pdf` - Your resume document
+- `This be your resume LeHigh Edition-1.pdf` - Resume document
 
 ## Technologies Used
 
@@ -65,8 +67,8 @@ A modern, responsive portfolio website showcasing my work as a 1st year Computer
 ## Education
 
 **Lehigh University**
-- Degree: Computer Engineering
-- Year: 1st Year (2025 - Present)
+- Degree: Bachelor of Science in Engineering (Undecided)
+- Expected graduation: May 2030
 
 ---
 
