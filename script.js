@@ -7,16 +7,16 @@ async function fetchGitHubData() {
     try {
         const response = await fetch(GITHUB_API);
         const data = await response.json();
-        
+
         // Update profile picture if available
         if (data.avatar_url) {
             const profilePic = document.getElementById('profilePic');
             profilePic.src = data.avatar_url;
         }
-        
-        // Update user name
-        if (data.name) {
-            const userName = document.getElementById('userName');
+
+        // Preserve the resume-based display name shown in the hero section
+        const userName = document.getElementById('userName');
+        if (userName && !userName.dataset.locked) {
             userName.textContent = data.name || GITHUB_USERNAME;
         }
     } catch (error) {
