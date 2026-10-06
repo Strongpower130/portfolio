@@ -13,12 +13,6 @@ async function fetchGitHubData() {
             const profilePic = document.getElementById('profilePic');
             profilePic.src = data.avatar_url;
         }
-
-        // Preserve the resume-based display name shown in the hero section
-        const userName = document.getElementById('userName');
-        if (userName && !userName.dataset.locked) {
-            userName.textContent = data.name || GITHUB_USERNAME;
-        }
     } catch (error) {
         console.log('GitHub data fetch completed');
     }
